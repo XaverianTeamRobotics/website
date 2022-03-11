@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  font-weight: bold;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(20px + 2vmin);
 }
 
 .App-logo {
@@ -13,22 +20,10 @@
   }
 }
 
-#paragroph {
+#paragraph {
   font-weight: normal;
   font-size: 30px;
   text-align: center;
-}
-
-body {
-  font-weight: bold;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(20px + 2vmin);
-  color: white;
 }
 
 .App-link {
