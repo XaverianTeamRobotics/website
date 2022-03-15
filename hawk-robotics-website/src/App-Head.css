@@ -67,11 +67,12 @@ li.dropdown {
 	width: 19%;
 	font-size: 1.5em;
 	position: relative;
+    text-align: center;
 }
 
 
 ul.menu_bar {
 	padding-left:  7%;
 	list-style-type: none;
-    width: 100%;
+    width: pageWidth;
 }

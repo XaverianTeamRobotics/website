@@ -10,7 +10,7 @@ function App() {
         coding and engineering. Students will participate in programming 
         and constructing a robot during the competitive season. Afterwards students learn more programming while beginning to 
         explore other concepts like CAD which assists in providing multitudes of school-made customized objects  </div>
-      <a class='App-link' href='https://www.youtube.com/watch?v=iik25wqIuFo' onContextMenu="return false;">Our Twitter</a>
+      <a className='App-link' href='https://www.youtube.com/watch?v=iik25wqIuFo'>Our Twitter</a>
     </div>
   );
 }
