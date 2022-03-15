@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
@@ -7,37 +6,13 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
-        <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+      <p>Hawk Robotics: The Ryken Force</p>
+      <div id='paragraph'>   Established in 2021, Hawk Robotics is a competitive team 
+        available for every student interested in the fields of 
+        coding and engineering. Students will participate in programming 
+        and constructing a robot during the competitive season. Afterwards students learn more programming while beginning to 
+        explore other concepts like CAD which assists in providing multitudes of school-made customized objects  </div>
+      <a className='App-link' href='https://www.youtube.com/watch?v=iik25wqIuFo'>Our Twitter</a>
     </div>
   )
 }

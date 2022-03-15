@@ -40,3 +40,9 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+
+#paragraph {
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+}
