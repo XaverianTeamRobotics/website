@@ -73,4 +73,5 @@ li.dropdown {
 ul.menu_bar {
 	padding-left:  7%;
 	list-style-type: none;
+    width: 100%;
 }
