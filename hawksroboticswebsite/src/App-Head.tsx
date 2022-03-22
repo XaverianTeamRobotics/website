@@ -3,7 +3,9 @@ import './App-Head.css';
 function AppHead() {
     return (
         <div id="template_menu">
-
+            <div id="logoContainer">
+                <img id="hawkLogo" src="https://raw.githubusercontent.com/XaverianTeamRobotics/website/images/xbhs-hawk.png"></img>
+            </div>
             <h1 className="dm_h1">Hawk Robotics-The Ryken Force</h1>
             <h2 className="drop_menu_h dm_h2">FIRST FTC Team #19460, Westwood, MA</h2>
             <h3 className="drop_menu_h dm_h3">Xaverian Brothers High School</h3>

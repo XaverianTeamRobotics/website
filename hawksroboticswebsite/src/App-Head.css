@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Literata:wght@300&family=Montserrat:wght@700&family=Quicksand&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap');
 
-html {
-  width: 100%;
-  background-color: #282c34;
+:root {
+	--XaverianBlue: #183280;
+	--XaverianGold: #cda140;
+	--XaverianYellow: #f9e505;
 }
-
 /* Xaverian Blue is #18457f */
-/* Using #183280
-/* Xaverian Gold is #cda140*/
+/* Using var(--XaverianBlue)
+/* Xaverian Gold is var(--XaverianGold)*/
 /* Team Yellow  f9e505 */
 
 .header_w_menu {
@@ -36,10 +36,10 @@ div#text_section {
 
 .dm_h1 {
 	font-size:  2.75em;
-	padding-top: 5%;
+	padding-top: 2%;
 	font-family: 'Montserrat Subrayada', sans-serif;
-	background-color: #183280;
-	color: #cda140;
+	background-color: var(--XaverianBlue);
+	color: var(--XaverianGold);
 	margin: 0;
 	text-align: center;
 }
@@ -47,17 +47,17 @@ div#text_section {
 .dm_h3 {
 	font-family: 'Montserrat Subrayada', sans-serif;
 	text-align: center;
-	background-color: #183280;
+	background-color: var(--XaverianBlue);
 	padding-top: 0.5%;
-	color: #cda140;
+	color: var(--XaverianGold);
 }
 
 
 .dm_h2 {
-	border-top:  4px solid #cda140;
-	background-color: #f9e505;
-	color: #183280;
-	border-bottom:  4px solid #cda140;
+	border-top:  4px solid var(--XaverianGold);
+	background-color: var(--XaverianYellow);
+	color: var(--XaverianBlue);
+	border-bottom:  4px solid var(--XaverianGold);
 }
 
 
@@ -75,4 +75,16 @@ ul.menu_bar {
 	padding-left:  7%;
 	list-style-type: none;
     width: pageWidth;
+}
+
+#logoContainer {
+	display: flex;
+	position: absolute;
+}
+
+#hawkLogo {
+	width: 13%;
+	height: 13%;
+	background-color: var(--XaverianBlue);
+	margin-left: 2%;
 }
